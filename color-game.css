@@ -1,0 +1,65 @@
+h2, h1, h3 {
+	text-transform: uppercase;
+	margin-bottom: 0rem;
+}
+
+.jumbotron {
+	text-align: center;
+	padding: 1rem 1rem;
+	margin-bottom: 0rem;
+	background-color: #5e9bff;
+	color: rgb(255, 250, 255);
+	transition: background .3s ease-in
+}
+
+body {
+	background-color: #232323
+}
+
+.nav {
+	background-color: rgb(255, 250, 255);
+}
+
+.square {
+	border-radius: 25px;
+    width: 30%;
+    background: red;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    transition: background .3s ease-in
+}
+
+#container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+#msg-nav {
+	width: 20%;
+}
+
+#msg {
+	width: 100%;
+	margin: 0 auto;
+    padding: .375rem .75rem;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn {
+	height: 100%;
+	background-color: rgb(255, 250, 255);
+	transition: background .2s ease-in
+}
+
+.btn:hover {
+	background-color: #5e9bff;
+	color: rgb(255, 250, 255);
+}
+
+.btn.selected {
+	background-color: #5e9bff;
+	color: rgb(255, 250, 255);
+}
